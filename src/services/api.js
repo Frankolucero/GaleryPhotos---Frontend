@@ -3,7 +3,7 @@ import axios from 'axios';
 // 1. Creamos la instancia de Axios
 const api = axios.create({
   // La URL base de tu API de backend
-  baseURL: 'http://localhost:3000/api', 
+  baseURL: 'http://localhost:5173/api', 
   headers: {
     'Content-Type': 'application/json',
   },
